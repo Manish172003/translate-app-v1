@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import TranslationForm from './TranslationForm';
+import logo from "./logo.svg";
+import "./App.css";
+import TranslationForm from "./TranslationForm";
+
+import React from "react";
 
 function App() {
-  return (
-    <TranslationForm/>
-  );
+  return <TranslationForm />;
 }
-
 export default App;
